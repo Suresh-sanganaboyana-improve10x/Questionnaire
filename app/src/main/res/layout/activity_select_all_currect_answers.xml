@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SelectAllCurrectAnswersActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Please select the all currect answers"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Which of the following are planets"
+        android:textColor="#100E0E"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/mercury_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercury"
+        android:textColor="#070606" />
+
+    <CheckBox
+        android:id="@+id/sun_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sun"
+        android:textColor="#070606" />
+
+    <CheckBox
+        android:id="@+id/moon_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moon"
+        android:textColor="#070606" />
+
+    <CheckBox
+        android:id="@+id/jupiter_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jupiter"
+        android:textColor="#070606" />
+
+    <CheckBox
+        android:id="@+id/saturn_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturn"
+        android:textColor="#070606" />
+
+    <CheckBox
+        android:id="@+id/pluto_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pluto"
+        android:textColor="#070606" />
+
+    <Button
+        android:id="@+id/verify_all_currect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:text="Verify" />
+
+</LinearLayout>
